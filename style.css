@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: rgb(131, 124, 124);
+}
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-12 {
+  flex-basis: 100%; /* flex: 100% 0 0; */
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.col-11 {
+  flex-basis: 91.66%; /* 100%/12*11 */
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.col-10 {
+  flex-basis: 83.33%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.col-9 {
+  flex-basis: 75%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.col-8 {
+  flex-basis: 66.66%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.col-7 {
+  flex-basis: 58.33%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.col-6 {
+  flex-basis: 50%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.col-5 {
+  flex-basis: 41.66%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.col-4 {
+  flex-basis: 33.3%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.col-3 {
+  flex-basis: 25%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.col-2 {
+  flex-basis: 16.66%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.col-1 {
+  flex-basis: 8.33%;
+  flex-grow: 0;
+  flex-shrink: 0;
+}
+.card {
+  box-shadow: 10px 10px 10px black;
+  background-color: rgb(56, 56, 91);
+  margin-top: 10px;
+  border-radius: 50px;
+}
+[class^="col"] {
+  padding: 0 20px;
+}
+.card .card-content {
+  padding: 15px 15px;
+  color: white;
+  margin-top: -20px;
+}
+.card .card-content a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  background-color: black;
+  padding: 5px 5px;
+  border-radius: 15px;
+}
+.card.card-horizonal {
+  display: flex;
+}
+.card.card-horizonal .card-img {
+  width: 50%;
+  border-radius: 50px;
+}
+.card:hover {
+  transition: all 100ms ease-in;
+  transform: scale(0.9) rotate(0deg);
+  box-shadow: 10px 10px 10px white;
+}
+.card.card-body1 .card-content {
+  padding-bottom: 30px;
+}
+
+/*#2*/
+.body-a {
+  background-color: gray;
+}
+.card-body2 {
+  margin-top: 30px;
+  background-color: grey;
+  border-radius: 50px;
+}
+.card-body2:hover {
+  transition: all 200ms ease-in;
+  transform: scale(1.1) rotate(0deg);
+  box-shadow: 0px 0px 30px black;
+}
+.card-body2 .card-image {
+  width: 100%;
+  border-radius: 50px;
+}
+.card-body2 .card-content {
+  padding: 20px 20px;
+  font-size: 15px;
+}
+.card-body3 .card-image {
+  width: 285px;
+  border-radius: 50px;
+}
+.card-body3 .card-content {
+  padding: 20px 20px;
+}
+.card-body3 {
+  margin-top: 30px;
+  border-radius: 50px;
+}
+.card-body3:hover {
+  transition: all 200ms ease-in;
+  transform: scale(1.1) rotate(0deg);
+  box-shadow: 0px 0px 30px black;
+}
