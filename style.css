@@ -113,11 +113,10 @@ body {
 
 /*#2*/
 .body-a {
-  background-color: gray;
+  background-color: plum;
 }
 .card-body2 {
   margin-top: 30px;
-  background-color: grey;
   border-radius: 50px;
 }
 .card-body2:hover {
